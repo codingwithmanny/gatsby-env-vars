@@ -7,7 +7,7 @@ const IndexPage = () => {
   const [todos, setTodos] = React.useState()
 
   React.useEffect(() => {
-    fetch(`${process.env.GATSBY_API_URL}/todos`)
+    fetch(`${window.GATSBY_API_URL}/todos`)
       .then(response => response.json())
       .then(json => setTodos(json))
   }, [])

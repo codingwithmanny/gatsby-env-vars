@@ -1,6 +1,6 @@
 # Gatsby Environment Variable Project
 
-First implementation of passing environment variables to docker image running Gatsby.
+The is the final implementation of passing environment variables to docker image running Gatsby.
 
 ## Requirements
 

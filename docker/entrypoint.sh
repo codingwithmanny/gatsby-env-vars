@@ -4,9 +4,9 @@ export GATSBY_API_URL="${GATSBY_API_URL:=unknown}";
 # CHECK IF FILES IS NOT CREATED, ELSE CREATE
 cd /usr/share/nginx/html;
 
-if [ ! -f .env ];
+if [ ! -f env.js ];
 then
-    echo "GATSBY_API_URL=$GATSBY_API_URL" > .env
+    echo "window.GATSBY_API_URL='$GATSBY_API_URL';" > env.js
 fi;
 
 # BUILD PROJECT

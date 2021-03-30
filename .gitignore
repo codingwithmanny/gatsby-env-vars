@@ -54,6 +54,7 @@ typings/
 
 # dotenv environment variable files
 .env*
+static/env.js
 
 # gatsby files
 .cache/
