@@ -8,3 +8,4 @@ The project is separated into branches:
 
 - [First Implementation](https://github.com/codingwithmanny/gatsby-env-vars/tree/01-first-docker-implementation)
 - [Final Implementation](https://github.com/codingwithmanny/gatsby-env-vars/tree/final)
+- [Final TypeScript Implementation](https://github.com/codingwithmanny/gatsby-env-vars/tree/final-typescript)
