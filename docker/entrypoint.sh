@@ -9,8 +9,5 @@ then
     echo "window.GATSBY_API_URL='$GATSBY_API_URL';" > env.js
 fi;
 
-# BUILD PROJECT
-yarn build;
-
 # KEEP NGINX DAEMON RUNNING
 nginx -g 'daemon off;'; nginx -s reload;
